@@ -191,3 +191,8 @@ buyBtn.addEventListener("click", () => {
 
 getProductsData();
 displayNewCart(cart);
+const bg = new Image();
+bg.src = "./assets/black-friday-concept-with-cart-basket.jpg";
+bg.onload = () => {
+  document.body.style.backgroundImage = `url(${bg.src})`;
+};

@@ -153,3 +153,9 @@ form.addEventListener("submit", (e) => {
 deleteConfirmBtn.addEventListener("click", deleteProduct);
 
 updateConfirmBtn.addEventListener("click", updateProduct);
+
+const bg = new Image();
+bg.src = "./assets/black-friday-concept-with-cart-basket.jpg";
+bg.onload = () => {
+  document.body.style.backgroundImage = `url(${bg.src})`;
+};
