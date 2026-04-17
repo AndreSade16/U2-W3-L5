@@ -49,7 +49,7 @@ const displayNewCart = (cart) => {
     const { _id, name, price, qty } = cartItem;
     const finalPrice = (qty * price).toFixed(2);
     cartList.innerHTML += `
-    <li id="cart-${_id}" class="mb-3 border border-1 border-secondary rounded-2 p-2 list-unstyled">
+    <li id="cart-${_id}" class="mb-3 border border-1 border-secondary rounded-2 p-2 list-unstyled shadow">
         <div class="row justify-content-between">
             <p class="col-12 fw-bold">${name}</p>
             <div class="d-flex flex-column flex-md-row">
@@ -135,7 +135,7 @@ const displayCards = (data) => {
     const { _id, name, description, brand, imageUrl, price } = product;
     cardsSpace.innerHTML += `
     <div class="col-12 col-md-4 d-flex mb-4">
-        <div class="card w-100 h-100">
+        <div class="card w-100 h-100 shadow">
             <img src="${imageUrl}" class="card-img-top object-fit-cover" alt="card-image" style="height: 250px">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">${name}</h5>

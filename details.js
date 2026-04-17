@@ -135,7 +135,7 @@ const displayCards = (data) => {
   const { _id, name, description, brand, imageUrl, price } = data;
   cardsSpace.innerHTML += `
     <div class="col-12 col-md-10 col-lg-8 d-flex">
-        <div class="card w-100 h-100">
+        <div class="card w-100 h-100 shadow-lg">
             <img src="${imageUrl}" class="card-img-top object-fit-cover" alt="card-image">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">${name}</h5>
