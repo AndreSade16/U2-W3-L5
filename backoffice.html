@@ -13,9 +13,13 @@
   </head>
   <body class="d-flex flex-column bg-gradient" style="min-height: 100dvh">
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-secondary-subtle p-3">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">CrudAzon</a>
+          <a
+            class="navbar-brand fw-bolder text-warning text-decoration-underline fst-italic fs-2 lh-base pt-0"
+            href="index.html"
+            >CrudAzon</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -51,7 +55,7 @@
                 placeholder="Es. 69e1f23b739f8700157ab098"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-warning" type="submit">
                 Search
               </button>
             </form>
@@ -208,10 +212,7 @@
                 >
                   Delete
                 </button>
-                <button
-                  id="submit-btn"
-                  class="btn btn-outline-secondary text-light"
-                >
+                <button id="submit-btn" class="btn btn-outline-warning">
                   Submit
                 </button>
                 <button

@@ -32,7 +32,7 @@ class Product {
 
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  location.assign(`./backoffice.html?id=${searchInput.value}`);
+  location.assign(`./backoffice.html?id=${searchInput.value.trim()}`);
 });
 
 const productID = new URLSearchParams(location.search).get("id");
