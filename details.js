@@ -144,7 +144,7 @@ const displayCards = (data) => {
                 <p class="card-text text-decoration-underline">ID: ${_id}</p>
                 <p class="card-text fw-bold mt-auto">${price}$</p>
                 <div class="d-flex justify-content-between">
-                    <button onclick="addToCart('${_id}')" class="btn btn-primary">Add to Cart</button>
+                    <button onclick="addToCart('${_id}')" class="btn btn-outline-warning">Add to Cart</button>
                 </div>
             </div>
         </div>
