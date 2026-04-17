@@ -11,7 +11,16 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="d-flex flex-column bg-gradient" style="min-height: 100dvh">
+  <body
+    class="d-flex flex-column"
+    style="
+      min-height: 100dvh;
+      background-image: url(./assets/black-friday-concept-with-cart-basket.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    "
+  >
     <header>
       <nav class="navbar navbar-expand-lg bg-secondary-subtle p-3">
         <div class="container-fluid">
@@ -206,7 +215,7 @@
                 <button
                   id="delete-btn"
                   type="button"
-                  class="btn btn-outline-danger d-none"
+                  class="btn btn-outline-danger d-none w-25"
                   data-bs-toggle="modal"
                   data-bs-target="#deleteModal"
                 >
@@ -221,7 +230,7 @@
                 <button
                   id="update-btn"
                   type="button"
-                  class="btn btn-outline-primary d-none"
+                  class="btn btn-outline-primary d-none w-25"
                   data-bs-toggle="modal"
                   data-bs-target="#updateModal"
                 >
